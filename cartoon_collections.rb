@@ -31,7 +31,7 @@ def find_the_cheese(snacks)
  end
  return nil
  end
-
+ 
  
 =begin
   if cheese_array.include?("cheddar") 
