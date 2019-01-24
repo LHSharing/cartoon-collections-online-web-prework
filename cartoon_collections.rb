@@ -27,9 +27,10 @@ def find_the_cheese(snacks)
  snacks.each {|snack| 
  if cheese_types.include?(snack)}
    return snack
- else return nil
  end
+ return nil
  end
+ 
  
 =begin
   if cheese_array.include?("cheddar") 
